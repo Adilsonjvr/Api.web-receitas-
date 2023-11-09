@@ -1,1 +1,6 @@
-/* Não foi necessário visto que o boostrap estiliza por si só
+.card-img-top {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    height: 200px; /* Define uma altura fixa */
+    object-fit: cover; /* Garante que a imagem cubra a área designada sem perder sua proporção */
+}
+
